@@ -12,8 +12,9 @@ create table users (
     -> users_uid TINYTEXT not null,
     -> users_pwd LONGTEXT not null,
     -> users_email TINYTEXT not null );
+    
 
-    Don't forget to change dbh.classes.dist to dbh.classes.php and add your username and passowrd.
+Don't forget to change dbh.classes.dist to dbh.classes.php and add your username and passowrd.
 
 #### Afterwards
 

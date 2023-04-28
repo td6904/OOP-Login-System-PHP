@@ -1,10 +1,6 @@
-A small tutorial I followed out with school work when I was at the Wild Code School in France for my training.
+# OOP-Login-System-PHP
 
-https://www.youtube.com/watch?v=BaEm2Qv14oU - How To Create A OOP PHP Login System For Beginners | OOP PHP & PDO | OOP PHP Tutorial
-
-Timestamp 52m
-
-***Still need to implement login.
+## Usage
 
 ### Put this command into your mysql CLI to be able to try the sign-in feature.
 create database signuplogin2;
@@ -18,3 +14,18 @@ create table users (
     -> users_email TINYTEXT not null );
 
     Don't forget to change dbh.classes.dist to dbh.classes.php and add your username and passowrd.
+
+#### Afterwards
+
+Start a PHP server by running the following command in the project directory:
+
+php -S localhost:8000
+
+Open a web browser and go to http://localhost:8000 to view the project.
+
+## About
+
+A small tutorial I followed out with school work when I was at the Wild Code School in France for my training.
+
+https://www.youtube.com/watch?v=BaEm2Qv14oU - How To Create A OOP PHP Login System For Beginners | OOP PHP & PDO | OOP PHP Tutorial
+
